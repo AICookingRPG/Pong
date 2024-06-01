@@ -1,0 +1,10 @@
+sourceCompatibility = 1.8
+dependencies {
+    implementation files('C:\\Users\\Anthony\\Downloads\\tween-engine-api-6.3.3\\tween-engine-api.jar')
+    implementation files('C:\\Users\\Anthony\\Downloads\\tween-engine-api-6.3.3\\tween-engine-api-sources.jar')
+}
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+eclipse.project.name = appName + "-core"
